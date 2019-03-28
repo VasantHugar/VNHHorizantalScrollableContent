@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		1898744022410A760084D710 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1898743F22410A760084D710 /* AppDelegate.swift */; };
-		1898744222410A760084D710 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1898744122410A760084D710 /* ViewController.swift */; };
-		1898744522410A760084D710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1898744322410A760084D710 /* Main.storyboard */; };
 		1898744722410A770084D710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1898744622410A770084D710 /* Assets.xcassets */; };
 		1898744A22410A770084D710 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1898744822410A770084D710 /* LaunchScreen.storyboard */; };
+		1898745222410AAE0084D710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1898745122410AAE0084D710 /* Main.storyboard */; };
+		1898745422410AD30084D710 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1898745322410AD30084D710 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1898743C22410A760084D710 /* VNHButtonsScrollableIndicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VNHButtonsScrollableIndicator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1898743C22410A760084D710 /* VNHHorizantalScrollableContent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VNHHorizantalScrollableContent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1898743F22410A760084D710 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1898744122410A760084D710 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1898744422410A760084D710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1898744622410A770084D710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1898744922410A770084D710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1898744B22410A770084D710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1898745122410AAE0084D710 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1898745322410AD30084D710 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +46,7 @@
 		1898743D22410A760084D710 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1898743C22410A760084D710 /* VNHButtonsScrollableIndicator.app */,
+				1898743C22410A760084D710 /* VNHHorizantalScrollableContent.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,8 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				1898743F22410A760084D710 /* AppDelegate.swift */,
-				1898744122410A760084D710 /* ViewController.swift */,
-				1898744322410A760084D710 /* Main.storyboard */,
+				1898745322410AD30084D710 /* MainViewController.swift */,
+				1898745122410AAE0084D710 /* Main.storyboard */,
 				1898744622410A770084D710 /* Assets.xcassets */,
 				1898744822410A770084D710 /* LaunchScreen.storyboard */,
 				1898744B22410A770084D710 /* Info.plist */,
@@ -67,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1898743B22410A760084D710 /* VNHButtonsScrollableIndicator */ = {
+		1898743B22410A760084D710 /* VNHHorizantalScrollableContent */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1898744E22410A770084D710 /* Build configuration list for PBXNativeTarget "VNHButtonsScrollableIndicator" */;
+			buildConfigurationList = 1898744E22410A770084D710 /* Build configuration list for PBXNativeTarget "VNHHorizantalScrollableContent" */;
 			buildPhases = (
 				1898743822410A760084D710 /* Sources */,
 				1898743922410A760084D710 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = VNHButtonsScrollableIndicator;
+			name = VNHHorizantalScrollableContent;
 			productName = VNHButtonsScrollableIndicator;
-			productReference = 1898743C22410A760084D710 /* VNHButtonsScrollableIndicator.app */;
+			productReference = 1898743C22410A760084D710 /* VNHHorizantalScrollableContent.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1898743722410A760084D710 /* Build configuration list for PBXProject "VNHButtonsScrollableIndicator" */;
+			buildConfigurationList = 1898743722410A760084D710 /* Build configuration list for PBXProject "VNHHorizantalScrollableContent" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1898743B22410A760084D710 /* VNHButtonsScrollableIndicator */,
+				1898743B22410A760084D710 /* VNHHorizantalScrollableContent */,
 			);
 		};
 /* End PBXProject section */
@@ -122,9 +122,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1898745222410AAE0084D710 /* Main.storyboard in Resources */,
 				1898744A22410A770084D710 /* LaunchScreen.storyboard in Resources */,
 				1898744722410A770084D710 /* Assets.xcassets in Resources */,
-				1898744522410A760084D710 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1898744222410A760084D710 /* ViewController.swift in Sources */,
+				1898745422410AD30084D710 /* MainViewController.swift in Sources */,
 				1898744022410A760084D710 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +143,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1898744322410A760084D710 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1898744422410A760084D710 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1898744822410A770084D710 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,12 +275,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BMQD4Q2QN3;
 				INFOPLIST_FILE = VNHButtonsScrollableIndicator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com..VNHButtonsScrollableIndicator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vasant.VNHButtonsScrollableIndicator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,12 +293,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BMQD4Q2QN3;
 				INFOPLIST_FILE = VNHButtonsScrollableIndicator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com..VNHButtonsScrollableIndicator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vasant.VNHButtonsScrollableIndicator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,7 +309,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1898743722410A760084D710 /* Build configuration list for PBXProject "VNHButtonsScrollableIndicator" */ = {
+		1898743722410A760084D710 /* Build configuration list for PBXProject "VNHHorizantalScrollableContent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1898744C22410A770084D710 /* Debug */,
@@ -324,7 +318,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1898744E22410A770084D710 /* Build configuration list for PBXNativeTarget "VNHButtonsScrollableIndicator" */ = {
+		1898744E22410A770084D710 /* Build configuration list for PBXNativeTarget "VNHHorizantalScrollableContent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1898744F22410A770084D710 /* Debug */,
