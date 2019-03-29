@@ -25,14 +25,16 @@ class MainViewController: UIViewController {
     }
 
     @IBAction func firstButtonAction(_ sender: Any) {
-        var rect = scrollView.frame
-        rect.origin.x = 0
-        scrollView.scrollRectToVisible(rect, animated: true)
+        scrollToSelectedButton(0)
     }
     
     @IBAction func secondButtonAction(_ sender: Any) {
+        scrollToSelectedButton(1)
+    }
+    
+    private func scrollToSelectedButton(_ index: Int) {
         var rect = scrollView.frame
-        rect.origin.x = rect.size.width
+        rect.origin.x = CGFloat(index) * rect.size.width
         scrollView.scrollRectToVisible(rect, animated: true)
     }
 }
@@ -42,11 +44,10 @@ extension MainViewController: UIScrollViewDelegate {
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         
         var contentOffset: CGPoint = scrollView.contentOffset
-        
         let contentOffsetX: CGFloat = contentOffset.x
         let widthOfView: CGFloat = self.view.frame.size.width
         
-        // Change Position of Indicator
+        // Update Position of Indicator
         leadingSpaceOfIndicator.constant = contentOffsetX / 2
         
         // Handle button selection
